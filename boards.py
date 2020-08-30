@@ -70,6 +70,7 @@ def print_usage():
 
 def main():
     refresh()
+    synchronize()
 
     if len(sys.argv) < 2:
         print_usage()
